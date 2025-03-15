@@ -14,6 +14,8 @@ npm install kunuharupa
 
 ```javascript
 const { detectProfanity, filterProfanity } = require('kunuharupa');
+else
+import { detectProfanity, filterProfanity } from "kunuharupa"
 
 // Detect profanity
 const text = "Your text here with Sinhala/Singlish content";

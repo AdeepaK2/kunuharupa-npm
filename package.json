@@ -1,27 +1,20 @@
 {
   "name": "kunuharupa",
-  "version": "1.1.0",
-  "description": "A simple package to detect and filter Sinhala and Singlish profanity words.",
+  "version": "1.2.0",
+  "description": "A profanity filter for Sinhala and Singlish.,support es sysntax",
   "main": "index.js",
+  "type": "module",  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "sinhala",
-    "profanity",
-    "filter",
-    "censorship",
-    "kunuharpa",
-    "කුණුහර්ප"
-  ],
-  "author": "Your Name",
+  "author": "adeepak",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AdeepaK2/kunuharupa-npm"
   },
   "bugs": {
-    "url": "https://github.com/AdeepaK2/kunuharupa-npm/issues"
+    "url": "https://github.com/AdeepaK2/kunuharupa-npm"
   },
   "homepage": "https://github.com/AdeepaK2/kunuharupa-npm"
 }

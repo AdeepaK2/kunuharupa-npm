@@ -13,7 +13,7 @@ async function loadProfanityData() {
 }
 
 // Function to detect profanity in the text
-async function detectProfanity(text) {
+export async function detectProfanity(text) {
   await loadProfanityData();  // Ensure profanity data is loaded
 
   const words = text.split(/\s+/);
@@ -38,7 +38,7 @@ async function detectProfanity(text) {
 }
 
 // Function to filter profanity in the text
-async function filterProfanity(text) {
+export async function filterProfanity(text) {
   await loadProfanityData();  // Ensure profanity data is loaded
 
   const words = text.split(/\s+/);
@@ -54,8 +54,3 @@ async function filterProfanity(text) {
 
   return filteredText;
 }
-
-module.exports = {
-  detectProfanity,
-  filterProfanity
-};
